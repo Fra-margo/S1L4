@@ -1,0 +1,131 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url("/assets/img/sfondo.png");
+    background-repeat: repeat;
+   }
+
+/* HEADER */
+header{
+    width: 400px;
+    height: 200px;
+    background-image: linear-gradient(#009fc3,#006888);
+    text-align: center;
+    margin: 30px;
+    padding-top: 30px;
+    box-shadow: 0px 3px 10px 2px grey;
+    color: white;
+}
+header img {
+    width: 250px;
+    height: 60px;
+}
+
+header h3 {
+    font-size: large;
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+header nav{
+    padding-top: 20px;
+}
+
+.menù{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+/* MAIN */
+main{
+    background-color: white;
+    margin: 30px;
+    border: 1px solid white;
+    box-shadow: 0px 3px 10px 2px grey;
+    padding: 20px;
+    font-size: 1.1em;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+h1{
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 15px
+}
+
+h2{
+    padding-top: 20px;
+}
+
+#autore{
+    color: grey
+}
+ p{
+    padding: 10px;
+}
+
+main ul{
+    padding:10px
+}
+ main ul li{
+    list-style-type: disc;
+    margin-left: 30px;
+}
+
+main ol{
+    padding:10px;
+}
+
+main ol li{
+    list-style-type:decimal;
+    margin-left: 30px;
+}
+
+ strong{
+    color:darkmagenta;
+    font-weight: bold;
+ }
+
+ .linkesterni{
+    color:#009fc3;
+    font-weight: bold;
+
+ }
+
+#video{
+    width: 350px;
+    height: 200px;
+    border-radius: 20px 20px 20px 20px;
+    margin: auto;
+ }
+
+/* TABELLE */
+
+/* FORM */
+#Novità{
+    background-color:lightgrey;
+}
+#Novità h2{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+form{
+   padding: 10px;
+}
+
+/* FOOTER */
+footer{
+    background-image: linear-gradient(#009fc3,#006888);
+    color:white;
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 0px 3px 10px 2px grey;
+    font-size: 0.8em;
+}
+#email{
+    text-decoration: underline;
+    color:magenta;
+}
